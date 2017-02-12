@@ -1,16 +1,37 @@
-#turtles {
-  display: none;
+body {
+  background-color: #ccffdd;
 }
 
-#snakes {
-  display: none;
+.jumbotron {
+  background-color: #66ff99;
 }
 
-#insects {
+.info {
   display: none;
+  border: 3px solid black;
 }
 
-#turtle-pic {
+.info h1 {
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.info p {
+  font-size: 16pt;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.info img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+/*#turtle-pic {
   width: 50%;
 }
 
@@ -20,4 +41,4 @@
 
 #insect-pic {
   width: 50%;
-}
+}*/
